@@ -6,8 +6,8 @@ The application features **persistent multi-thread conversations**, allowing use
 
 ## 🔗 Links
 
-- 🌐 **Live Application:  ** https://langgraph-powered-agentic-chatbot.onrender.com/
-- 🎥 **YouTube Demo Video:  ** https://youtu.be/V0-mIKWSvck
+- 🌐 **Live Application :**   https://langgraph-powered-agentic-chatbot.onrender.com/
+- 🎥 **YouTube Demo Video :**   https://youtu.be/V0-mIKWSvck
 
 ---
 
