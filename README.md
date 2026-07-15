@@ -4,6 +4,11 @@ A conversational AI agent built with **LangGraph** and **Google Gemini**, capabl
 
 The application features **persistent multi-thread conversations**, allowing users to switch between previous chat sessions while maintaining conversation state using LangGraph's SQLite checkpointer.
 
+## 🔗 Links
+
+- 🌐 **Live Application:  ** https://langgraph-powered-agentic-chatbot.onrender.com/
+- 🎥 **YouTube Demo Video:  ** https://youtu.be/V0-mIKWSvck
+
 ---
 
 ## ✨ Features
@@ -70,32 +75,22 @@ User (Streamlit)
    └── Purchase Stock
           │
           ▼
-     interrupt()
-          │
-          ▼
- Human Approval
- (Approve / Reject)
-          │
-          ▼
- Command(resume)
-          │
-          ▼
-      chat_node
-```
+     interrupt()  →   Human Approval (Approve / Reject)   →   Command(resume)   →   chat_node         
 
+```
 ---
 
 ## 🛠️ Tech Stack
 
-- **Agent Framework:** LangGraph
-- **LLM:** Google Gemini 2.5 Flash
-- **Embeddings:** Google Gemini Embeddings
-- **Vector Database:** FAISS
-- **Web Search:** Tavily
-- **Weather API:** OpenWeatherMap
-- **Stock API:** Alpha Vantage
-- **Frontend:** Streamlit
-- **Persistence:** SQLite (`langgraph-checkpoint-sqlite`)
+- **Agent Framework :**   LangGraph
+- **LLM :**   Google Gemini 2.5 Flash
+- **Embeddings :**   Google Gemini Embeddings
+- **Vector Database :**   FAISS
+- **Web Search :**   Tavily
+- **Weather API :**   OpenWeatherMap
+- **Stock API :**   Alpha Vantage
+- **Frontend :**   Streamlit
+- **Persistence :**   SQLite (`langgraph-checkpoint-sqlite`)
 
 ---
 
@@ -119,7 +114,6 @@ User (Streamlit)
 
 ```bash
 git clone https://github.com/RashmiImasha/LangGraph_Powered_Agentic_Chatbot.git
-
 cd LangGraph_Powered_Agentic_Chatbot
 ```
 
@@ -178,9 +172,7 @@ Example:
 
 ```
 Summarize this report.
-
 What was Tesla's net income in 2024?
-
 Who is the CEO mentioned in this document?
 ```
 
@@ -194,9 +186,7 @@ Example:
 
 ```
 Latest AI news
-
 Who won today's cricket match?
-
 Current Bitcoin price
 ```
 
@@ -208,7 +198,6 @@ Example:
 
 ```
 What's the weather in Colombo?
-
 Current weather in Tokyo
 ```
 
@@ -220,7 +209,6 @@ Example:
 
 ```
 Price of AAPL
-
 Current TSLA stock price
 ```
 
@@ -252,5 +240,4 @@ The workflow will:
 
 ## 👨‍💻 Author
 
-**Rashmi Imasha**
-GitHub: https://github.com/RashmiImasha
+**Rashmi Imasha** | GitHub: https://github.com/RashmiImasha
