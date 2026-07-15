@@ -87,15 +87,15 @@ User (Streamlit)
 
 ## 🛠️ Tech Stack
 
-Agent Framework : LangGraph 
-LLM : Google Gemini 2.5 Flash 
-Embeddings : Google Gemini Embeddings 
-Vector Database : FAISS 
-Web Search : Tavily 
-Weather API : OpenWeatherMap 
-Stock API : Alpha Vantage 
-Frontend : Streamlit 
-Persistence : SQLite (`langgraph-checkpoint-sqlite`) 
+- **Agent Framework:** LangGraph
+- **LLM:** Google Gemini 2.5 Flash
+- **Embeddings:** Google Gemini Embeddings
+- **Vector Database:** FAISS
+- **Web Search:** Tavily
+- **Weather API:** OpenWeatherMap
+- **Stock API:** Alpha Vantage
+- **Frontend:** Streamlit
+- **Persistence:** SQLite (`langgraph-checkpoint-sqlite`)
 
 ---
 
@@ -250,7 +250,7 @@ The workflow will:
 
 ---
 
+## 👨‍💻 Author
 
 **Rashmi Imasha**
-
 GitHub: https://github.com/RashmiImasha
